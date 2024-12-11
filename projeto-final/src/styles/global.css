@@ -1,0 +1,150 @@
+
+.header {
+  background-color: #1f2329; 
+  color: #ffffff; /* Texto */
+  padding: 10px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%; 
+  max-width: 1200px; 
+  margin: 0 auto; /* Centraliza  */
+}
+
+.header .logo {
+  width: 120px; 
+}
+
+.header .menu {
+  font-family: 'Arial', sans-serif;
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+
+body {
+  background-color: #242c3a;
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex; /* centralizar conteúdo */
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+}
+
+.content-box {
+  display: flex;
+  gap: 20px;
+  background-color: #324255; /* Cor fundo  box  */
+  padding: 20px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2); 
+  width: 100%;
+  max-width: 1200px;
+  border-radius: 0px; 
+  justify-content: flex-start; 
+  margin-top: 0px; 
+  flex-wrap: wrap; 
+}
+
+.sidebar {
+  width: 200px; 
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  justify-content: flex-start; 
+  order: 2;
+}
+
+.sidebar button {
+  width: 100%;
+  padding: 15px;
+  background-color: #4d5d75; /* Fundo botões */
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  text-align: center;
+}
+
+.sidebar button:hover {
+  background-color: #63759b;
+}
+
+
+.cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  grid-column-gap: 6px;
+  flex: 1;
+  order: 1; 
+}
+
+
+.card {
+  background-color: #2b2d42;
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  height: 150px; 
+}
+
+.footer {
+  background-color: #1f2329; 
+  color: #ffffff; /* Texto branco */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%; 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-content {
+  display: flex; 
+  align-items: center; 
+  gap: 10px;
+}
+
+.footer-content .logo {
+  width: 80px; 
+  height: auto;
+}
+
+
+/*                                                                                                   
+                                        .@@@@@@@@%.                                                 
+                                   @@@@@@@@@@@@@@@@@@@@@                                            
+                               #@@@@@@@@@@@@@@@@@@@@@@@@@@@+                                        
+                             @@@@@@@@+               *@@@@@@@@                                      
+                           @@@@@@@                       @@@@@@@                                    
+                         @@@@@@.                           .@@@@@@                                  
+                        @@@@@.                               =@@@@@                                 
+                       @@@@@       @@@-             =@@@       @@@@@                                
+                      @@@@@      @@@@@@@@         @@@@@@@@      @@@@@                               
+                     @@@@@      @@@@@@@@@         @@@@@@@@@      @@@@@                              
+                    @@@@@        @@@@@@@@         @@@@@@@@        @@@@@                             
+                    @@@@.         @@@@@%           @@@@@@         =@@@@                             
+                   -@@@@            *Vlw Julli e Diego!*           @@@@                             
+                   @@@@@   **Vlw Ingrid pelo socorro no caos!**    @@@@%                            
+                   @@@@@       **Muito Obrigado Campinho!**        @@@@@                            
+                   @@@@@      @@@@@                     @@@@@      @@@@*                            
+                    @@@@      @@@@@                     @@@@@      @@@@                             
+                    @@@@#      @@@@                     @@@@      @@@@@                             
+                    #@@@@      @@@@@                   @@@@@      @@@@-                             
+                     @@@@@      @@@@@@               @@@@@@      @@@@@                              
+                      @@@@@      =@@@@@@           @@@@@@.      @@@@@                               
+                       @@@@@       @@@@@@@@@@@@@@@@@@@@@      .@@@@@                                
+                        @@@@@@       .@@@@@@@@@@@@@@@.       @@@@@@                                 
+                         .@@@@@@          @@@@@@@          @@@@@@                                   
+                           @@@@@@@@                     @@@@@@@%                                    
+                             =@@@@@@@@@             @@@@@@@@@.                                      
+                                @@@@@@@@@@@@@@@@@@@@@@@@@@@                                         
+                                    @@@@@@@@@@@@@@@@@@@ 
+                                        .@@@@@@@@%. 
+                                        
+*/
