@@ -59,9 +59,9 @@ src/
 └── styles/
     ├── global.css         # Estilos globais da aplicação
     └── card.css           # Estilos específicos do card
+```
 
-
-### Descrição dos Arquivos
+ ## Descrição dos Arquivos ##
 
 - **main.jsx**: Configura a renderização do aplicativo React.
 - **App.jsx**: Componente principal que carrega os jogos da API e organiza a estrutura da página.
@@ -84,10 +84,6 @@ src/
 
 4. **Erro de Carregamento**:
     - Caso haja um erro ao carregar os dados da API, uma mensagem de erro é exibida para o usuário.
-
-## Imagens
-
-![Logo](src/assets/logo.png)
 
 ## Contribuições
 
